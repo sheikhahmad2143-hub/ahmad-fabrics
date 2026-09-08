@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Ahmad Fabrics Faisalabad | Bedsheets, Comforters & Blankets Pakistan</title>
+<meta name="description" content="Shop premium bedsheets, comforter sets, blankets and home textiles from Ahmad Fabrics Faisalabad. Live stock, multiple designs, nationwide delivery and direct WhatsApp ordering in Pakistan.">FREE ORDER ASSISTANCE ON WHATSAPP · LIVE STOCK · NATIONWIDE DELIVERY</div>
+<header class="topbar">
+  <button class="menuBtn" id="menuBtn" aria-label="Open menu">☰</button>
+  <div class="brandWrap"><strong>AHMAD FABRICS</strong><small>HOME TEXTILES</small></div>
+  <div class="topActions">
+    <button class="topLink hideSm" id="trackBtn">Track Order</button>
+    <button class="topLink hideSm" id="adminBtn">Admin</button>
+    <a class="waBtn" href="https://wa.me/923037702687" target="_blank">WhatsApp</a>
+  </div>
+</header>
+<div class="sidebarShade" id="sidebarShade"></div>
+<aside class="sidebar" id="sidebar">
+  <div class="sideHead"><div class="sideBrand">AHMAD FABRICS<small>HOME TEXTILES</small></div><button class="sideClose" id="sideClose">✕</button></div>
+  <nav class="sideNav">
+    <a href="#" onclick="closeSidebar()">Home <span>›</span></a>
+    <a href="#shop" onclick="closeSidebar()">Shop All <span>›</span></a>
+    <div class="sideLabel">Shop by item</div>
+    <div id="sideCategories"></div>
+    <div class="sideLabel">Customer service</div>
+    <button id="sideTrack">Track Order <span>›</span></button>
+    <a href="#about" onclick="closeSidebar()">About Ahmad Fabrics <span>›</span></a>
+    <button id="sideAdmin">Admin Panel <span>›</span></button>
+  </nav>
+  <div class="sideFooter">WhatsApp: 0303-7702687<br>Ahmad Fabrics · Faisalabad</div>
+</aside>
+
+
+<section class="hero">
+  <div class="heroShell">
+    <div class="heroCopy">
+      <div class="kicker">Pakistan · Premium Home Textiles</div>
+      <h1>AHMAD<br>FABRICS</h1>
+      <p>Elegant bedsheets, comforters, blankets and home textile collections with live stock, multiple designs and secure order management.</p>
+      <div class="heroButtons">
+        <a class="btn gold" href="#shop">SHOP COLLECTION</a>
+        <button class="btn ghost" type="button" onclick="document.querySelector('.trackBox').scrollIntoView({behavior:'smooth'})">TRACK ORDER</button>
+      </div>
+    </div>
+    <div class="heroVisual">
+      <div class="heroVisualCard">
+        <div class="kicker" style="color:#6a2336">AHMAD FABRICS ONLINE</div>
+        <h3>Premium shopping, made simple.</h3>
+        <div class="premiumLine"></div>
+        <div class="stat"><span>Live Stock</span><strong>Real-time</strong></div>
+        <div class="stat"><span>Product Designs</span><strong>Multiple per item</strong></div>
+        <div class="stat"><span>Order Status</span><strong>Confirmed → Dispatched</strong></div>
+        <div class="stat"><span>WhatsApp</span><strong>0303-7702687</strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="trustStrip"><div class="trustGrid">
+  <div class="trustItem"><strong>Premium Quality</strong><span>Selected home textiles</span></div>
+  <div class="trustItem"><strong>Live Stock</strong><span>See availability before order</span></div>
+  <div class="trustItem"><strong>Multiple Designs</strong><span>Choose design under each item</span></div>
+  <div class="trustItem"><strong>Order Tracking</strong><span>Confirmation & dispatch updates</span></div>
+</div></div>
+
+<section class="section" id="shop"><div class="sectionHead"><div><div class="eyebrow">Our collection</div><h2>Featured Products</h2></div><div class="muted" id="count"></div></div><div class="filters" id="filters"></div><div class="grid" id="grid"><div class="loading">Loading products…</div></div></section>
+<section class="collectionBand"><div class="collectionInner"><div><div class="kicker">AHMAD FABRICS COLLECTION</div><h2>Designed for modern Pakistani homes.</h2></div><div><p>Browse by item from the side menu, select your preferred design, check live stock and place your order. New product items can be created anytime from the Admin Panel.</p></div></div></section>
+<section class="section"><div class="trackBox"><div class="eyebrow">Order Tracking</div><h2 style="font-size:28px">Check your order</h2><div class="form"><input id="trackOrder" placeholder="Order number e.g. AF-1001"><input id="trackPhone" placeholder="Phone number used in order"><button class="btn primary" type="button" id="trackNow">Check Status</button><div id="trackResult" class="status"></div></div></div></section>
+
+<section class="section" id="faisalabad">
+  <div class="sectionHead">
+    <div>
+      <div class="eyebrow">AHMAD FABRICS FAISALABAD</div>
+      <h2>Bedsheets, Comforters & Blankets in Pakistan</h2>
+    </div>
+  </div>
+  <div class="trackBox">
+    <p>Ahmad Fabrics Faisalabad offers premium bedsheets, comforter sets, blankets and home textile collections for customers across Pakistan. Browse live stock, choose from multiple designs and place your order directly online or through WhatsApp.</p>
+    <p class="muted">Visit Ahmad Fabrics at Shop #04, Shamas Center, Tata Bazar, Faisalabad, or order for nationwide delivery.</p>
+  </div>
+</section>
+
+<section class="about" id="about"><div class="aboutInner"><div><div class="eyebrow">About us</div><h2>Quality textiles, simple ordering.</h2></div><div><p>AHMAD FABRICS offers home textile products for customers who value design, comfort and dependable service.</p><p>For product availability, wholesale inquiries and orders, contact us directly on WhatsApp.</p></div></div></section>
+<footer>© 2026 Ahmad Fabrics · WhatsApp 0303-7702687</footer>
+
+
+<div class="modal" id="checkoutModal"><div class="panel" style="max-width:900px"><div class="panelTop"><div><h2 style="margin:0">Place Order</h2><div class="muted">Confirm product, design and delivery details</div></div><button class="close" id="checkoutClose">Close</button></div><div class="checkoutGrid" style="margin-top:15px"><div class="summary" id="checkoutSummary"></div><form class="form" id="checkoutForm"><input id="customerName" placeholder="Customer name" required><input id="customerPhone" placeholder="Phone number" required><input id="customerCity" placeholder="City" required><textarea id="customerAddress" placeholder="Complete delivery address" required></textarea><textarea id="customerNotes" placeholder="Notes (optional)"></textarea><label>Quantity</label><input id="orderQty" type="number" min="1" value="1" required><button class="btn primary" type="submit" id="placeOrderBtn">Confirm Order</button><div id="orderStatus" class="status"></div></form></div></div></div>
+<div class="modal" id="modal"><div class="panel"><div class="panelTop"><div><h2 style="margin:0">Admin Panel</h2><div class="muted">Cloud product management</div></div><button class="close" id="close">Close</button></div>
+<div id="loginView"><div class="loginBox"><div class="notice">Enter your private Ahmad Fabrics admin code. Do not share this code with customers.</div><input id="adminCodeInput" type="password" placeholder="Admin code"><button class="btn primary" id="loginBtn">Open Admin</button><div class="status" id="loginStatus"></div></div></div>
+<div id="adminView" style="display:none"><div class="notice">Products and uploaded images are saved online and appear to customers on every device.</div><div class="adminGrid"><div><form class="form" id="form"><input type="hidden" id="editId"><input type="hidden" id="existingImage"><input type="hidden" id="existingPath"><img id="preview" class="preview" alt="Preview"><input id="image" type="file" accept="image/jpeg,image/png,image/webp"><input id="name" placeholder="Product name" required><input id="price" inputmode="decimal" placeholder="Price e.g. 4500" required><select id="category"></select><input id="stock" type="number" min="0" value="0" placeholder="Live stock quantity"><textarea id="description" placeholder="Description (optional)"></textarea><button class="btn primary" type="submit" id="saveBtn">Save Product</button><button class="small" type="button" id="resetForm">Clear</button><button class="small" type="button" id="logoutAdmin">Lock Admin</button><div class="status" id="formStatus"></div></form></div><div><h3>Products</h3><div class="adminList" id="adminList"></div></div></div>
+<div class="adminExtra"><div class="adminCols"><div><h3>Add / Edit Design</h3><form class="form" id="variantForm"><input type="hidden" id="variantId"><input type="hidden" id="variantExistingImage"><input type="hidden" id="variantExistingPath"><select id="variantProduct"></select><input id="designName" placeholder="Design name / code" required><input id="variantPrice" inputmode="decimal" placeholder="Design price (blank = product price)"><input id="variantStock" type="number" min="0" value="0" placeholder="Design stock"><input id="variantImage" type="file" accept="image/jpeg,image/png,image/webp"><img id="variantPreview" class="preview" alt="Design preview"><button class="btn primary" type="submit">Save Design</button><button class="small" type="button" id="resetVariant">Clear</button><div class="status" id="variantStatus"></div></form></div><div><h3>Designs</h3><div class="adminList" id="variantList"></div></div></div></div>
+<div class="adminExtra"><div style="display:flex;justify-content:space-between;align-items:center"><h3>Orders</h3><button class="small" type="button" id="refreshOrders">Refresh</button></div><div class="adminList" id="ordersList"></div></div>
+<div class="adminExtra">
+  <div class="adminFeature">
+    <h3>Items / Categories</h3>
+    <div class="muted">Yahan se aap Bedsheet, Comforter, Blanket ke ilawa jitne naye item names chahen add kar sakte hain.</div>
+    <div class="form" style="grid-template-columns:1fr auto;margin-top:12px">
+      <input id="newCategory" placeholder="New item name e.g. Curtains, Towels, Mattress Protector">
+      <button class="btn primary" type="button" id="addCategoryBtn">Add Item</button>
+    </div>
+    <div id="categoryStatus" class="status"></div>
+    <div id="categoryList" class="categoryRows"></div>
+  </div>
+</div>
+</div>
+</div></div>
+<script>
+const API='https://egssamomhrietvlvxfws.supabase.co/functions/v1/ahmad-products';
+const WHATSAPP='923037702687';
+let products=[]; let categories=[]; let active='All'; let selectedDesign={}; let adminCode=sessionStorage.getItem('af_admin_code')||'';
+const $=id=>document.getElementById(id);
+const money=v=>'Rs. '+Number(v||0).toLocaleString('en-PK');
+function esc(v){return String(v??'').replace(/[&<>"']/g,s=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[s]))}
+async function loadProducts(){
+  $('grid').innerHTML='<div class="loading">Loading products…</div>';
+  try{const r=await fetch(API);const j=await r.json();if(!r.ok)throw new Error(j.error||'Could not load products');products=j.products||[];categories=j.categories||[];render();renderAdmin();renderSidebar();}
+  catch(e){$('grid').innerHTML='<div class="loading error">Products could not load. Please refresh.</div>';console.error(e)}
+}
+function renderFilters(){const cats=['All',...(categories.length?categories.map(c=>c.name):[...new Set(products.map(p=>p.category).filter(Boolean))])];$('filters').innerHTML=cats.map(c=>`<button class="chip ${c===active?'active':''}" onclick="setFilter(${JSON.stringify(c)})">${esc(c)}</button>`).join('')}
+function renderSidebar(){const cats=categories.length?categories.map(c=>c.name):[...new Set(products.map(p=>p.category).filter(Boolean))];$('sideCategories').innerHTML=cats.map(c=>`<button class="sideCat" onclick="setFilter(${JSON.stringify(c)});closeSidebar();document.getElementById('shop').scrollIntoView({behavior:'smooth'})">${esc(c)}<span>›</span></button>`).join('')}
+window.setFilter=c=>{active=c;render()};
+function render(){renderFilters();const list=active==='All'?products:products.filter(p=>p.category===active);$('count').textContent=`${list.length} products`;$('grid').innerHTML=list.length?list.map(productCard).join(''):'<div class="loading">No products yet.</div>'}
+function productCard(p){const vars=p.product_variants||[];if(!(p.id in selectedDesign))selectedDesign[p.id]=vars[0]?.id||null;const v=vars.find(x=>x.id===selectedDesign[p.id])||vars[0]||null;const stock=v?v.stock_quantity:(p.stock_quantity||0),price=(v&&v.price!=null)?v.price:p.price,img=v?.image_url||p.image_url;return `<article class="product"><img src="${esc(img||'')}" alt="${esc(p.name)}" onerror="this.style.opacity=.25"><div class="productBody"><div class="muted">${esc(p.category||'')}</div><h3>${esc(p.name)}</h3><div class="meta"><span class="price">${money(price)}</span><span class="stock ${stock>0?'in':'out'}">${stock>0?stock+' in stock':'Out of stock'}</span></div>${vars.length?`<div class="designs">${vars.map(x=>`<button class="design ${x.id===v?.id?'sel':''}" type="button" onclick="chooseDesign(${p.id},${x.id})"><img src="${esc(x.image_url||p.image_url||'')}"><span>${esc(x.design_name)}</span></button>`).join('')}</div>`:'<div class="muted" style="font-size:12px;margin-top:8px">Standard design</div>'}<button class="order buyNow" ${stock<=0?'disabled style="opacity:.5"':''} onclick="buyProduct(${p.id})">${stock>0?'Buy Now':'Out of Stock'}</button></div></article>`}
+window.chooseDesign=(pid,vid)=>{selectedDesign[pid]=vid;render()}
+window.buyProduct=id=>{const p=products.find(x=>x.id===id);if(!p)return;const v=(p.product_variants||[]).find(x=>x.id===selectedDesign[id])||null;const stock=v?v.stock_quantity:(p.stock_quantity||0);if(stock<=0)return;window.currentOrder={p,v,stock};$('checkoutSummary').innerHTML=`<img src="${esc(v?.image_url||p.image_url||'')}" style="width:100%;max-height:260px;object-fit:cover;border-radius:12px"><h3>${esc(p.name)}</h3><p>${v?'Design: '+esc(v.design_name):'Standard design'}</p><strong>${money(v&&v.price!=null?v.price:p.price)}</strong><p class="muted">Available stock: ${stock}</p>`;$('orderQty').max=stock;$('orderQty').value=1;$('orderStatus').textContent='';$('checkoutModal').classList.add('open')}
+function renderAdmin(){const current=$('category')?.value||'';if($('category')){$('category').innerHTML=(categories.length?categories.map(c=>`<option>${esc(c.name)}</option>`):['Bedsheets','Comforters','Blankets','New Arrivals'].map(c=>`<option>${c}</option>`)).join('');if(current&&[...$('category').options].some(o=>o.value===current))$('category').value=current;}if($('categoryList'))$('categoryList').innerHTML=categories.map(c=>`<div class="categoryRow"><strong>${esc(c.name)}</strong><button type="button" class="small danger" onclick="deleteCategory(${c.id})">Delete</button></div>`).join('')||'<div class="muted">No items yet.</div>';$('adminList').innerHTML=products.map(p=>`<div class="row"><img src="${esc(p.image_url||'')}"><div><strong>${esc(p.name)}</strong><div class="muted">${esc(p.category||'')} · ${money(p.price)} · Stock ${p.stock_quantity||0} · ${(p.product_variants||[]).length} designs</div></div><div class="rowActions"><button class="small" onclick="editProduct(${p.id})">Edit</button><button class="small danger" onclick="deleteProduct(${p.id})">Delete</button></div></div>`).join('')||'<div class="muted">No products.</div>';$('variantProduct').innerHTML=products.map(p=>`<option value="${p.id}">${esc(p.name)}</option>`).join('');$('variantList').innerHTML=products.flatMap(p=>(p.product_variants||[]).map(v=>`<div class="row"><img src="${esc(v.image_url||'')}"><div><strong>${esc(p.name)}</strong><div class="muted">${esc(v.design_name)} · Stock ${v.stock_quantity||0} · ${v.price==null?'Base price':money(v.price)}</div></div><div class="rowActions"><button class="small" onclick="editVariant(${p.id},${v.id})">Edit</button><button class="small danger" onclick="deleteVariant(${v.id})">Delete</button></div></div>`)).join('')||'<div class="muted">No designs yet.</div>'}
+function resetFormFields(){$('editId').value='';$('existingImage').value='';$('existingPath').value='';$('name').value='';$('price').value='';if($('category').options.length)$('category').selectedIndex=0;$('stock').value='0';$('description').value='';$('image').value='';$('preview').removeAttribute('src');$('formStatus').textContent=''}
+$('image').addEventListener('change',e=>{const f=e.target.files[0];if(!f)return;if(f.size>10*1024*1024){alert('Image must be under 10MB');e.target.value='';return}const u=URL.createObjectURL(f);$('preview').src=u});
+window.editProduct=id=>{const p=products.find(x=>x.id===id);if(!p)return;$('editId').value=p.id;$('existingImage').value=p.image_url||'';$('existingPath').value=p.image_path||'';$('name').value=p.name||'';$('price').value=p.price||'';$('category').value=p.category||'Bedsheets';$('stock').value=p.stock_quantity||0;$('description').value=p.description||'';$('preview').src=p.image_url||'';$('modal').classList.add('open');showAdmin()};
+async function apiForm(fd){const r=await fetch(API,{method:'POST',headers:{'x-admin-code':adminCode},body:fd});const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.error||'Request failed');return j}
+$('form').addEventListener('submit',async e=>{e.preventDefault();const fd=new FormData();fd.append('action','save');if($('editId').value)fd.append('id',$('editId').value);fd.append('name',$('name').value.trim());fd.append('price',$('price').value.trim());fd.append('category',$('category').value);fd.append('stock_quantity',$('stock').value);fd.append('description',$('description').value.trim());fd.append('existing_image_url',$('existingImage').value);fd.append('existing_image_path',$('existingPath').value);if($('image').files[0])fd.append('image',$('image').files[0]);$('saveBtn').disabled=true;$('formStatus').className='status';$('formStatus').textContent='Saving…';try{await apiForm(fd);$('formStatus').className='status success';$('formStatus').textContent='Saved online.';resetFormFields();await loadProducts()}catch(e){$('formStatus').className='status error';$('formStatus').textContent=e.message}finally{$('saveBtn').disabled=false}});
+window.deleteProduct=async id=>{if(!confirm('Delete this product?'))return;const fd=new FormData();fd.append('action','delete');fd.append('id',String(id));try{await apiForm(fd);await loadProducts()}catch(e){alert(e.message)}};
+async function checkAdmin(code){const fd=new FormData();fd.append('action','check');const r=await fetch(API,{method:'POST',headers:{'x-admin-code':code},body:fd});return r.ok}
+function showAdmin(){$('loginView').style.display='none';$('adminView').style.display='block';renderAdmin();loadOrders()}
+function showLogin(){$('loginView').style.display='block';$('adminView').style.display='none'}
+$('loginBtn').onclick=async()=>{const code=$('adminCodeInput').value.trim();if(!code)return;$('loginStatus').textContent='Checking…';if(await checkAdmin(code)){adminCode=code;sessionStorage.setItem('af_admin_code',code);$('loginStatus').textContent='';showAdmin()}else{$('loginStatus').className='status error';$('loginStatus').textContent='Wrong admin code.'}};
+$('adminBtn').onclick=async()=>{$('modal').classList.add('open');if(adminCode&&await checkAdmin(adminCode))showAdmin();else{adminCode='';sessionStorage.removeItem('af_admin_code');showLogin()}};
+$('logoutAdmin').onclick=()=>{adminCode='';sessionStorage.removeItem('af_admin_code');$('adminCodeInput').value='';showLogin()};
+$('close').onclick=()=>$('modal').classList.remove('open');$('resetForm').onclick=resetFormFields;$('modal').addEventListener('click',e=>{if(e.target===$('modal'))$('modal').classList.remove('open')});
+
+$('checkoutClose').onclick=()=>$('checkoutModal').classList.remove('open');
+$('checkoutForm').onsubmit=async e=>{e.preventDefault();const {p,v,stock}=window.currentOrder||{};const qty=Math.max(1,Number($('orderQty').value)||1);if(!p||qty>stock){$('orderStatus').className='status error';$('orderStatus').textContent='Quantity is higher than available stock.';return}const fd=new FormData();fd.append('action','place_order');fd.append('customer_name',$('customerName').value.trim());fd.append('phone',$('customerPhone').value.trim());fd.append('city',$('customerCity').value.trim());fd.append('address',$('customerAddress').value.trim());fd.append('notes',$('customerNotes').value.trim());fd.append('items',JSON.stringify([{product_id:p.id,variant_id:v?.id||null,quantity:qty}]));$('placeOrderBtn').disabled=true;$('orderStatus').textContent='Placing order…';try{const r=await fetch(API,{method:'POST',body:fd}),j=await r.json();if(!r.ok)throw new Error(j.error||'Order failed');const o=j.order||{};$('orderStatus').className='status success';$('orderStatus').innerHTML=`Order confirmed ✅<br><strong>Order # ${esc(o.order_number||o.orderNumber||'')}</strong><br>Please save this number for tracking.`;await loadProducts()}catch(e){$('orderStatus').className='status error';$('orderStatus').textContent=e.message}finally{$('placeOrderBtn').disabled=false}};
+async function trackNow(){const no=$('trackOrder').value.trim(),ph=$('trackPhone').value.trim();if(!no||!ph){$('trackResult').textContent='Enter order number and phone.';return}$('trackResult').textContent='Checking…';try{const r=await fetch(`${API}?order=${encodeURIComponent(no)}&phone=${encodeURIComponent(ph)}`),j=await r.json();if(!r.ok)throw new Error(j.error||'Order not found');const o=j.order;$('trackResult').className='status success';$('trackResult').innerHTML=`<div class="orderCard"><strong>${esc(o.order_number)}</strong><br>Status: <span class="badge">${esc(o.status)}</span><br>Total: ${money(o.total)}<br>${(o.order_items||[]).map(i=>`${esc(i.product_name)}${i.design_name?' - '+esc(i.design_name):''} × ${i.quantity}`).join('<br>')}</div>`}catch(e){$('trackResult').className='status error';$('trackResult').textContent=e.message}}
+$('trackNow').onclick=trackNow;$('trackBtn').onclick=()=>document.querySelector('.trackBox').scrollIntoView({behavior:'smooth'});
+function resetVariantForm(){$('variantId').value='';$('variantExistingImage').value='';$('variantExistingPath').value='';$('designName').value='';$('variantPrice').value='';$('variantStock').value='0';$('variantImage').value='';$('variantPreview').removeAttribute('src');$('variantStatus').textContent=''}
+$('resetVariant').onclick=resetVariantForm;$('variantImage').onchange=e=>{const f=e.target.files[0];if(f)$('variantPreview').src=URL.createObjectURL(f)};
+window.editVariant=(pid,vid)=>{const p=products.find(x=>x.id===pid),v=(p?.product_variants||[]).find(x=>x.id===vid);if(!v)return;$('variantId').value=v.id;$('variantProduct').value=pid;$('variantExistingImage').value=v.image_url||'';$('variantExistingPath').value=v.image_path||'';$('designName').value=v.design_name||'';$('variantPrice').value=v.price??'';$('variantStock').value=v.stock_quantity||0;$('variantPreview').src=v.image_url||''};
+$('variantForm').onsubmit=async e=>{e.preventDefault();const fd=new FormData();fd.append('action','save_variant');if($('variantId').value)fd.append('variant_id',$('variantId').value);fd.append('product_id',$('variantProduct').value);fd.append('design_name',$('designName').value.trim());fd.append('variant_price',$('variantPrice').value);fd.append('variant_stock',$('variantStock').value);fd.append('variant_existing_image',$('variantExistingImage').value);fd.append('variant_existing_path',$('variantExistingPath').value);if($('variantImage').files[0])fd.append('variant_image',$('variantImage').files[0]);$('variantStatus').textContent='Saving…';try{await apiForm(fd);$('variantStatus').className='status success';$('variantStatus').textContent='Design saved.';resetVariantForm();await loadProducts()}catch(e){$('variantStatus').className='status error';$('variantStatus').textContent=e.message}};
+window.deleteVariant=async id=>{if(!confirm('Delete design?'))return;const fd=new FormData();fd.append('action','delete_variant');fd.append('variant_id',id);try{await apiForm(fd);await loadProducts()}catch(e){alert(e.message)}};
+async function loadOrders(){$('ordersList').innerHTML='<div class="muted">Loading…</div>';try{const fd=new FormData();fd.append('action','list_orders');const j=await apiForm(fd),os=j.orders||[];$('ordersList').innerHTML=os.map(o=>`<div class="orderCard"><div class="orderTop"><div><strong>${esc(o.order_number)}</strong><div>${esc(o.customer_name)} · ${esc(o.phone)} · ${esc(o.city)}</div><div class="muted">${(o.order_items||[]).map(i=>`${esc(i.product_name)}${i.design_name?' / '+esc(i.design_name):''} × ${i.quantity}`).join(' · ')}</div><strong>${money(o.total)}</strong></div><select class="orderStatusSelect" onchange="setOrderStatus(${o.id},this.value)">${['Pending','Confirmed','Dispatched','Delivered','Cancelled'].map(s=>`<option ${s===o.status?'selected':''}>${s}</option>`).join('')}</select></div></div>`).join('')||'<div class="muted">No orders yet.</div>'}catch(e){$('ordersList').innerHTML='<div class="error">'+esc(e.message)+'</div>'}}
+window.setOrderStatus=async(id,status)=>{const fd=new FormData();fd.append('action','set_order_status');fd.append('id',id);fd.append('status',status);try{await apiForm(fd);await loadOrders()}catch(e){alert(e.message)}};
+$('refreshOrders').onclick=loadOrders;
+
+
+function openSidebar(){$('sidebar').classList.add('open');$('sidebarShade').classList.add('open')}
+function closeSidebar(){$('sidebar').classList.remove('open');$('sidebarShade').classList.remove('open')}
+$('menuBtn').onclick=openSidebar;$('sideClose').onclick=closeSidebar;$('sidebarShade').onclick=closeSidebar;
+$('sideTrack').onclick=()=>{closeSidebar();document.querySelector('.trackBox').scrollIntoView({behavior:'smooth'})};
+$('sideAdmin').onclick=()=>{closeSidebar();$('adminBtn').click()};
+
+async function saveCategory(){
+ const name=$('newCategory').value.trim();if(!name)return;
+ $('categoryStatus').textContent='Adding item…';
+ const fd=new FormData();fd.append('action','save_category');fd.append('category_name',name);
+ try{await apiForm(fd);$('newCategory').value='';$('categoryStatus').className='status success';$('categoryStatus').textContent='New item added.';await loadProducts()}
+ catch(e){$('categoryStatus').className='status error';$('categoryStatus').textContent=e.message}
+}
+window.deleteCategory=async id=>{
+ if(!confirm('Delete this item/category?'))return;
+ const fd=new FormData();fd.append('action','delete_category');fd.append('category_id',id);
+ try{await apiForm(fd);await loadProducts()}catch(e){alert(e.message)}
+};
+$('addCategoryBtn').onclick=saveCategory;
+
+loadProducts();
+</script>
+</body></html>
